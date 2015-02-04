@@ -3,7 +3,11 @@ using System.Collections;
 
 public class BackgroundScroll : MonoBehaviour {
 
-	public float m_fSpeed = 5.0f;
+	public float m_fSpeed = 2.0f;
+
+	void Start () {
+		m_fSpeed = 2.0f;
+	}
 
 	void FixedUpdate()
 	{

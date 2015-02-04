@@ -6,11 +6,12 @@ public class BackgroundLooper : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D collider)
 	{
 		Vector2 size = ((BoxCollider2D)collider).size;
-		Vector2 pos = collider.transform.position;
+		Vector3 pos = collider.transform.position;
+		Vector3 scale = collider.transform.localScale;
 
 		float prevPos = pos.y;
 
-		pos.y =  size.y * 2.0f;
+		pos.y =  size.y * 1.0f * scale.y;
 
 		Debug.Log ("onTriggerEnter2D2 : " + collider.name + ", " + size.y + " : " + pos.y + " , " + prevPos);
 
