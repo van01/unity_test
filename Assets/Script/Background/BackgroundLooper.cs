@@ -11,7 +11,7 @@ public class BackgroundLooper : MonoBehaviour {
 
 		float prevPos = pos.y;
 
-		pos.y =  size.y * 1.0f * scale.y;
+		pos.y =  size.y * scale.y;
 
 		Debug.Log ("onTriggerEnter2D2 : " + collider.name + ", " + size.y + " : " + pos.y + " , " + prevPos);
 

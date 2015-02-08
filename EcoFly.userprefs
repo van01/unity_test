@@ -1,11 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Unity 2D Game Tutorial - Part 4/Assets/Script/BGLooper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/MoveBottomArea.cs">
     <Files>
-      <File FileName="Assets/Script/BackgroundScroll.cs" Line="23" Column="28" />
-      <File FileName="../Unity 2D Game Tutorial - Part 4/Assets/Script/BGLooper.cs" Line="13" Column="3" />
-      <File FileName="../Unity 2D Game Tutorial - Part 4/Assets/Script/BgMove.cs" Line="12" Column="38" />
-      <File FileName="Assets/Script/ProjectDirector.cs" Line="11" Column="2" />
+      <File FileName="Assets/Script/PlayerMovement.cs" Line="17" Column="38" />
+      <File FileName="Assets/Script/BackgroundLooper.cs" Line="8" Column="1" />
+      <File FileName="../../Unity 2D Game Tutorial - Part 4/Assets/Script/BirdMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/CameraMovement.cs" Line="1" Column="1" />
+      <File FileName="../../Unity 2D Game Tutorial - Part 4/Assets/Script/PipeInitialize.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/EnemyMovement.cs" Line="15" Column="3" />
+      <File FileName="Assets/Script/MoveBottomArea.cs" Line="20" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

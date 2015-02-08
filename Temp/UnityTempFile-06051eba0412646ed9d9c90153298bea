@@ -36,9 +36,14 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/Script/BackgroundLooper.cs'
-'Assets/Script/BackgroundManager.cs'
-'Assets/Script/BackgroundScroll.cs'
+'Assets/Script/Background/BackgroundLooper.cs'
+'Assets/Script/Background/BackgroundManager.cs'
+'Assets/Script/Background/BackgroundScroll.cs'
+'Assets/Script/CameraMovement.cs'
+'Assets/Script/EnemyManager.cs'
+'Assets/Script/EnemyMovement.cs'
+'Assets/Script/MoveBottomArea.cs'
+'Assets/Script/PlayerMovement.cs'
 'Assets/Script/ProjectDirector.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
