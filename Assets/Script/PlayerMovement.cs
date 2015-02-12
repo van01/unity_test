@@ -3,7 +3,8 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public float m_fSpeed = 10.0f;
+	public Animator m_anim;
+	public float MOVE_SPEED = 4.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -14,16 +15,24 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 
 		Vector2 position = transform.position;
+		float fSpeed = 0.0f;
+		int nAnimationFlag = 0;
+
 		if (Input.GetKey (KeyCode.LeftArrow))
 		{
-			position.x -= (m_fSpeed * Time.deltaTime);
+			fSpeed = -MOVE_SPEED;
+			nAnimationFlag = -1;
 		}
 		else if (Input.GetKey (KeyCode.RightArrow))
 		{
-			position.x += (m_fSpeed * Time.deltaTime);
+			fSpeed = MOVE_SPEED;
+			nAnimationFlag = 1;
 		}
 
+		position.x += (fSpeed * Time.deltaTime);
 		transform.position = position;
-		
+
+		//animator
+		m_anim.SetInteger ("MoveX", nAnimationFlag);
 	}
 }

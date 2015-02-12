@@ -3,12 +3,13 @@ using System.Collections;
 
 public class CameraMovement : MonoBehaviour {
 
-	private GameObject m_player;
+//	private GameObject m_player;
+	public Rigidbody2D m_player;
 	public float m_fAreaWidth = 2.0f;
 
 	// Use this for initialization
 	void Start () {
-		m_player = GameObject.FindGameObjectWithTag ("Player");
+//		m_player = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
 	// Update is called once per frame
@@ -17,7 +18,6 @@ public class CameraMovement : MonoBehaviour {
 		Vector3 posPlayer = m_player.transform.position;
 
 		float fGap = posCamera.x - posPlayer.x;
-
 		if (fGap < -m_fAreaWidth)
 		{
 			posCamera.x = posPlayer.x - m_fAreaWidth;

@@ -44,7 +44,7 @@ public class EnemyManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		m_fObjectMakeTime += Time.deltaTime;
-		Debug.Log ("Time " + Time.deltaTime + ", " + m_fObjectMakeTime);
+
 		if (m_fObjectMakeTime > 0.3f)
 		{
 			m_fObjectMakeTime = Time.deltaTime;

@@ -15,8 +15,6 @@ public class MoveBottomArea : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D collider)
 	{
-		Debug.Log (collider.name + " is Destroy");
-
 		Destroy (collider.gameObject);
 	}
 

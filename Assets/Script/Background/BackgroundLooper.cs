@@ -13,8 +13,6 @@ public class BackgroundLooper : MonoBehaviour {
 
 		pos.y =  size.y * scale.y;
 
-		Debug.Log ("onTriggerEnter2D2 : " + collider.name + ", " + size.y + " : " + pos.y + " , " + prevPos);
-
 		collider.transform.position = pos;
 	}
 }

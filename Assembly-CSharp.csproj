@@ -50,11 +50,14 @@
      <Compile Include="Assets\Script\Background\BackgroundManager.cs" />
      <Compile Include="Assets\Script\Background\BackgroundScroll.cs" />
      <Compile Include="Assets\Script\CameraMovement.cs" />
+     <Compile Include="Assets\Script\EnemyCollision.cs" />
      <Compile Include="Assets\Script\EnemyManager.cs" />
      <Compile Include="Assets\Script\EnemyMovement.cs" />
      <Compile Include="Assets\Script\MoveBottomArea.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
+     <Compile Include="Assets\Script\PlayerShooter.cs" />
      <Compile Include="Assets\Script\ProjectDirector.cs" />
+     <Compile Include="Assets\Script\ShootMovement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
