@@ -3,11 +3,12 @@ using System.Collections;
 
 public class EnemyCollision : MonoBehaviour {
 
+	private Animator m_anim;
 	public float m_fEnege = 100.0f;
 
 	// Use this for initialization
 	void Start () {
-	
+		m_anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -27,12 +28,21 @@ public class EnemyCollision : MonoBehaviour {
 
 			if ( m_fEnege < 0)
 			{
-				Destroy (this.gameObject);
+				EnemyMovement movement = GetComponent<EnemyMovement>();
+				movement.m_fSpeed = 2.0f;
+
+				m_anim.SetBool ("isDestroy", true);
+				this.tag = "Untagged";
 			}
 			else
 			{
 				data.actionDestroy();
 			}
 		}
+	}
+
+	void OnDestroyEndAnimation()
+	{
+		Destroy (this.gameObject);
 	}
 }

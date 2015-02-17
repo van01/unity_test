@@ -362,5 +362,155 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 332
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 332
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_35
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 332
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 227
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 227
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_39
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 227
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 122
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 122
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_43
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 122
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb2_46
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 17
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
